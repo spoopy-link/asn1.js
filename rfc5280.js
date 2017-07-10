@@ -1,8 +1,4 @@
-try {
-  var asn1 = require('asn1.js');
-} catch (e) {
-  var asn1 = require('../..');
-}
+var asn1 = require('./');
 
 /**
  * RFC5280 X509 and Extension Definitions
